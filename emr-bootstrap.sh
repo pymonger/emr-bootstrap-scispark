@@ -2,6 +2,9 @@
 
 PRESHARED_KEY='SET THIS TO SOMETHING'
 
+# install SciSpark puppet module
+sudo bash < <(curl -skL https://raw.githubusercontent.com/pymonger/puppet-scispark/master/install.sh)
+
 sudo rpm -ivh http://yum.puppetlabs.com/puppetlabs-release-pc1-el-6.noarch.rpm
 sudo yum install -y puppet-agent redhat-lsb-core
 
